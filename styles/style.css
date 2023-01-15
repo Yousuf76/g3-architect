@@ -24,11 +24,11 @@ nav ul{
 }
 /* Banner style*/
 .banner{
-    margin: 0 200px;
+    margin: 0 150px;
 }
 .banner-title{
     color: #131313;
-    font-weight: 700;
+    font-weight: 500;
 font-size: 64px;
 text-align: center;
 }
@@ -61,6 +61,8 @@ margin-bottom: 30px;
 /*main section*/
 .features{
     display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 .features-info{
     
@@ -75,8 +77,14 @@ margin-bottom: 30px;
 }
 /* features love and enjoy section*/
 .architect{
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 }
 .architect-title{
    
@@ -90,7 +98,7 @@ border-radius: 8px;
 width: 586px;
 height: 171px;
 left: 240px;
-top: 2522px;
+top: 252px;
 }
 /*--facts--*/
 .facts{
@@ -121,6 +129,7 @@ top: 2522px;
      padding: 30px;
  }
  .sponsor{
+    margin-top: 30px;
 
  }
  .sponsor-title{
@@ -131,13 +140,15 @@ top: 2522px;
     text-align: center;
     justify-content: center;
 }
-.sponser-image{
-    row-gap: 20px;
+.sponsor-image{
+    display: flex;
+    gap: 130px;
 }
 .copyright{
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     background: #727272;
-    border-radius: 8px;
+    border-radius: 20px;
+  
 
 }
