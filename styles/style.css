@@ -64,8 +64,7 @@ margin-bottom: 30px;
     margin-top: 50px;
     margin-left: 30px;
 }
-.features-info{
-    
+#features-info{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -148,7 +147,7 @@ top: 252px;
     margin-top: 100px;
     text-align: center;
     background: #727272;
-    border-radius: 20px;
+    border-radius: 8px;
   
 
 }
